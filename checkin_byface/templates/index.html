@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Recognition Check-In System</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+    <h1>Face Recognition Check-In System</h1>
+
+    <div class="wrapper">
+        <!-- Đăng ký người dùng -->
+        <section id="register">
+            <h2>Register User</h2>
+            <form id="registerForm">
+                <input type="text" name="name" placeholder="Enter Name" required>
+                <input type="text" name="dob" placeholder="Enter Date of Birth (YYYY-MM-DD)" required>
+                <input type="text" name="phone" placeholder="Enter Phone Number" required>
+                <input type="file" name="file" required>
+                <button type="submit">Register</button>
+            </form>
+            <div id="registerResult"></div>
+        </section>
+
+        <!-- Check-in từ camera -->
+        <section id="checkInCamera">
+            <h2>Check-In (Camera)</h2>
+            <button id="checkInBtn">Start Check-In</button>
+            <p>Press 'q' in the camera window to quit.</p>
+            <div id="checkInResult"></div>
+        </section>
+
+        <!-- Danh sách check-in -->
+        <section id="checkInList">
+            <h2>Check-In List</h2>
+            <button id="fetchListBtn">Fetch Check-In List</button>
+            <div id="checkInListResult"></div>
+        </section>
+    </div>
+
+    <script src="/static/js/script.js"></script>
+</body>
+
+</html>

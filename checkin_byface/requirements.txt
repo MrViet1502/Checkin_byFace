@@ -1,0 +1,7 @@
+flask
+opencv-contrib-python
+scikit-learn
+face_recognition
+pymongo
+cloudinary
+git+https://github.com/ageitgey/face_recognition_models

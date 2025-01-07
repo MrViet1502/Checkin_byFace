@@ -1,0 +1,8 @@
+name,dob,phone,img_path
+messi,2004,12345678,knn_folder/train/messi\1736223520.jpg
+quocviet,2003,0334323606,knn_folder/train/quocviet\1736223844.jpg
+tantruong,2003,12233445566,knn_folder/train/tantruong\1736231726.jpg
+tantruong,2003,12233445566,knn_folder/train/tantruong\1736231818.jpg
+ronaldo,1987,2222222223333,knn_folder/train/ronaldo\1736231898.jpg
+ronaldo,1987,222221123333,knn_folder/train/ronaldo\1736231937.jpg
+ducvinh,2003,112233223344,knn_folder/train/ducvinh\1736232025.jpg
