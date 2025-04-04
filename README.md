@@ -21,19 +21,7 @@ A real-time face recognition-based check-in system developed using **Python**, *
 
 ## 📁 Project Structure
 
-Checkin_byFace/
-├── knn_folder/              # Contains training data and the trained KNN model
-│   ├── train/               # Folder storing registered face images
-│   └── trained_knn_model.clf  # Saved KNN classifier model
-│
-├── templates/               # HTML templates for the web interface
-│   └── index.html           # Main UI for registration and check-in list
-│
-├── static/                  # Frontend styling and JavaScript files
-│
-├── app.py                   # Main application logic (Flask server)
-├── user_info.csv            # Stores user registration information
-└── checkin_log.csv          # Logs all check-in events with timestamp
+<pre lang="markdown"> ```text Checkin_byFace/ ├── knn_folder/ # Contains training data and the trained KNN model │ ├── train/ # Folder storing registered face images │ └── trained_knn_model.clf # Saved KNN classifier model │ ├── templates/ # HTML templates for the web interface │ └── index.html # Main UI for registration and check-in list │ ├── static/ # Frontend styling and JavaScript files │ ├── app.py # Main application logic (Flask server) ├── user_info.csv # Stores user registration information └── checkin_log.csv # Logs all check-in events with timestamp ``` </pre>
 
 
 ## 🚀 How It Works
