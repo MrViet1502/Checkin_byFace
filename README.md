@@ -38,7 +38,7 @@ Checkin_byFace/ ├── knn_folder/ │ ├── train/ # Registered face ima
 
 ## 📷 Demo
 
-> Include screenshots here if needed (optional)
+> Demo available in report file
 
 ## 🛠 Installation
 
